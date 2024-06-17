@@ -1,0 +1,164 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 105);
+    color: white;
+    height: 48px;
+    width: auto;
+    padding: 5px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+thead,
+tbody {
+    background-color: white;
+}
+
+.left {
+    display: flex;
+}
+
+.center {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav img {
+    display: flex;
+    padding: 7px;
+    height: 35px;
+    width: 35px;
+}
+
+#feed {
+    background-color: white;
+    color: rgb(33, 189, 137);
+    height: 35px;
+    padding-bottom: 10px;
+    padding-right: 7px;
+    border-radius: 5px;
+}
+
+.right {
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.right img {
+    display: flex;
+    height: 35px;
+    width: 35px;
+    padding: 7px;
+}
+
+.credits {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile img {
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+#dropdown {
+    margin-left: -10px;
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+}
+
+.balk {
+    display: flex;
+    background-color: rgb(81, 210, 222);
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+    min-width: 100px;
+}
+
+.voortgang {
+    display: block;
+    background-color: rgb(14, 115, 131);
+    width: 10px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.balk p {
+    margin-top: 6px;
+    text-align: center;
+}
+
+th {
+    /* padding-left:  100px; */
+    border-bottom: 1px solid rgb(188, 170, 170);
+}
+
+td {
+    padding-left: 60px;
+    border-bottom: 1px solid rgb(188, 170, 170);
+}
+
+.links {
+    display: flex;
+    box-shadow: 2px 3px 5px rgb(217, 205, 205);
+    height: 200px;
+    width: 40%;
+    border: solid 1px #ffffff;
+    min-width: 750px;
+    margin-right: 80px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rechts {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    border: 2px solid #ffffff;
+    box-shadow: 2px 3px 5px rgb(217, 205, 205);
+    margin-top: -60px;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+.hoi {
+    margin-left: 20%;
+    /* padding-left: 90px; */
+}
+
+.button {
+    background-color: #27c78c;
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+    width: 70px;
+    border-color: white;
+    box-shadow: 2px 2px 100px;
+}
